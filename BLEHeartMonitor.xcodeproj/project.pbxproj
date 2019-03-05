@@ -12,7 +12,7 @@
 		3903047A222EC9D300B2AD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39030478222EC9D300B2AD8C /* Main.storyboard */; };
 		3903047C222EC9D400B2AD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3903047B222EC9D400B2AD8C /* Assets.xcassets */; };
 		3903047F222EC9D400B2AD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3903047D222EC9D400B2AD8C /* LaunchScreen.storyboard */; };
-		39030487222ECC9200B2AD8C /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39030486222ECC9200B2AD8C /* BLEManager.swift */; };
+		39030487222ECC9200B2AD8C /* BLECentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39030486222ECC9200B2AD8C /* BLECentralManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		3903047B222EC9D400B2AD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3903047E222EC9D400B2AD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39030480222EC9D400B2AD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39030486222ECC9200B2AD8C /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		39030486222ECC9200B2AD8C /* BLECentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECentralManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				39030474222EC9D300B2AD8C /* AppDelegate.swift */,
 				39030476222EC9D300B2AD8C /* ViewController.swift */,
-				39030486222ECC9200B2AD8C /* BLEManager.swift */,
+				39030486222ECC9200B2AD8C /* BLECentralManager.swift */,
 				39030478222EC9D300B2AD8C /* Main.storyboard */,
 				3903047B222EC9D400B2AD8C /* Assets.xcassets */,
 				3903047D222EC9D400B2AD8C /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39030477222EC9D300B2AD8C /* ViewController.swift in Sources */,
-				39030487222ECC9200B2AD8C /* BLEManager.swift in Sources */,
+				39030487222ECC9200B2AD8C /* BLECentralManager.swift in Sources */,
 				39030475222EC9D300B2AD8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

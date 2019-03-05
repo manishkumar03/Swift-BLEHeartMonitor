@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController, HeartRateMonitorDelegate {
 
   @IBOutlet weak var lblHeartRateBPM: UILabel!
-  var bleManager: BLEManager!
+  var bleCentralManager: BLECentralManager!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    bleManager = BLEManager()
-    bleManager.delegate = self
+    bleCentralManager = BLECentralManager()
+    bleCentralManager.delegate = self
     lblHeartRateBPM.layer.cornerRadius = 20
     lblHeartRateBPM.clipsToBounds = true
     lblHeartRateBPM.text = "___"

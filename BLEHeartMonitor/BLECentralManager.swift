@@ -17,7 +17,7 @@ protocol HeartRateMonitorDelegate: class {
 let heartRateServiceUUID = CBUUID(string: "0x180D")
 let heartRateCharacteristicUUID = CBUUID(string: "2A37")
 
-class BLEManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
+class BLECentralManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
   var centralManager: CBCentralManager!
   var heartRatePeripheral: CBPeripheral!
   var delegate: HeartRateMonitorDelegate?
